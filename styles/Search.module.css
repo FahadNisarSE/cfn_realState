@@ -1,0 +1,32 @@
+#searchFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#sectionHeading {
+    margin-top: 2rem;
+    text-indent: 2rem;
+}
+
+#noResult {
+    display: grid;
+    place-items: center;
+}
+
+#noResult >h3 {
+    font-weight: 400;
+}
+
+.propertyCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}

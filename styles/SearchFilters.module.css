@@ -1,0 +1,42 @@
+#filterContainer {
+    background-color: #F5F5F5;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem
+}
+
+.selectBox {
+    padding: 0.5em;
+    width: max-content;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.selectBox:hover,
+.selectBox:focus,
+.selectBox:active {
+    border: 1px solid #8de299;
+}
+
+#searchContainer {
+    display: flex;
+}
+
+.searchInput {
+    height: 30px;
+    text-indent: 5px;
+    border: 1px solid #8de299;
+    outline: none;
+}
+
+.searchLabel {
+    height: 30px;
+    font-weight: 600;
+    color: white;
+    font-size: 0.8rem;
+    padding: 6px;
+    background-color: #8de299;
+}

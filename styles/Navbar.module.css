@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+    padding: 1rem;
+    width: 90vw;
+    position: relative;
+    height: 100px;
+    border-bottom: 1px solid #64b564;
+}
+
+.navTitle {
+    color: #64b564;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navButton {
+    width: 37px;
+    height: 37px;
+    border: 2px solid #64b564;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+.icons {
+    margin-right: 1rem;
+}
+
+.navButton:hover,
+.navButton:focus {
+    box-shadow: 0 0px 5px #8de299;
+}
+
+#menu {
+    width: 250px;
+    height: 350px;
+    padding-top: 3rem;
+    right: 0;
+    top: 60px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    gap: 1rem;
+    border-radius: 4px;
+    z-index: 4;
+}
+
+.menuItem {
+    margin-left: -40px;
+    padding-left: 2rem;
+    height: 3rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.menuItem:hover,
+.menuItem:focus {
+    background-color: #64b564de;
+    color: white;
+    border-radius: 4px;
+}

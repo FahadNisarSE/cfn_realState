@@ -1,0 +1,58 @@
+.propertyCard {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    padding: 1rem;
+    border: 1px solid #cce7d0;
+    justify-content: flex-start;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.propertyCard:hover, .propertyCard:focus {
+    border: 1px solid yellowgreen;
+    box-shadow: 0 3px 10px #8de299;
+}
+
+.propertyCardImage {
+    border-radius: 4px;
+}
+
+#avatar {
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #9E9E9E;
+    border-radius: 50%;
+}
+
+#propertyCardInfo {
+    display: grid;
+    gap: 1rem;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+#firstLine {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#secondLine {
+    margin-top: -8px;
+    display: flex;
+    min-height: 1.6rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+#thirdLine {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.icon {
+    color: #64b564;
+    margin-right: 4px;
+}
